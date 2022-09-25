@@ -1,4 +1,5 @@
-// This app will...
+// This app will allow the user (professor) to add tags to existing slides
+// This app will allow the user (student) to filter and view specific slides
 
 // slides in BIOL 112
 const slide1 = 1;
@@ -14,7 +15,7 @@ const slide10 = 10;
 const slides = [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide10];
 console.log("BIOL 112: " + slides);
 
-// user adds topics
+// topics are tagged
 const cells = "cells";
 const ecosystem = "ecosystem";
 let cellsSlides = []
@@ -66,5 +67,3 @@ for (i=0;i<LO4Slides.length;i++) {
 }
 console.log("Learning Objectives " + LO3 + ", " + LO4 + ": " + showSlides)
 
-
-// user filters slides to show certain topics and learning objectives
